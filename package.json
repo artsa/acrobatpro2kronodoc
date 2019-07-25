@@ -1,13 +1,13 @@
 {
-  "name": "acrobat2krono",
+  "name": "acrobat2kronodoc",
   "version": "1.0.0",
   "description": "Add a menu item to Acrobat Reader Pro allowing to send the currently open PDF file to a Kronodoc instance",
-  "main": "acrobatpro2krono.js",
+  "main": "acrobatpro2kronodoc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ari Rantalainen",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
