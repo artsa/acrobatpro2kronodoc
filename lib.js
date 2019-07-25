@@ -1,7 +1,6 @@
 /* eslint-disable vars-on-top */
 /* eslint-disable no-var */
 /* eslint-disable prefer-template */
-/* eslint-disable no-undef */
 
 const toBase64 = function toBase64(text) {
   const tempStream = util.streamFromString(text);
@@ -13,7 +12,6 @@ const toBase64 = function toBase64(text) {
 const toUidPwd = function toUidPwd(username, password) {
   return toBase64(username + ':' + password);
 };
-
 
 const generateMultipartFormData = function generateMultipartFormData(params, boundary) {
   // Store our body request in a string.

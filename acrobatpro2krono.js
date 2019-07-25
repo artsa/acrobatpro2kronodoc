@@ -1,6 +1,4 @@
-/* eslint-disable no-undef */
 /* eslint-disable prefer-template */
-/* eslint-disable prefer-arrow-callback */
 
 // TODO: Fetch credentials, menuText and targetURL from a config file (preferably krono.ini)
 // TODO: Fix to work with the latest version. Now works with PP 2012.1.

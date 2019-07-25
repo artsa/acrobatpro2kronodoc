@@ -1,10 +1,13 @@
 env:
-  browser: true
-  es6: true
+  browser: false
+  es6: false
 extends: airbnb-base
 globals:
   Atomics: readonly
   SharedArrayBuffer: readonly
+  Net: readonly
+  util: readonly
+  app: readonly
 parserOptions:
   ecmaVersion: 3
 rules: {}
